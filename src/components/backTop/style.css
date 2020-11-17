@@ -1,0 +1,11 @@
+#back-top {
+    width: 4%;
+    border-radius: 50%;
+    background-color: var(--base-color);
+  
+    position: fixed;
+    text-align: center;
+    margin: 5px;
+    right: 0;
+    top: 80%;
+  }

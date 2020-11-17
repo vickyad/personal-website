@@ -1,0 +1,21 @@
+.my-projects{
+    margin: 50px;
+    padding: 30px;
+    background-color: var(--projects-background);
+}
+
+.status-concluido{
+    font-weight: bold;
+    color: rgb(15, 126, 15);
+}
+  
+.status-emandamento{
+    font-weight: bold;
+    color: rgb(240, 205, 51);
+}
+
+#input-descricao{
+    padding: 80px;
+    padding-top: 0px;
+    text-align: justify;
+}

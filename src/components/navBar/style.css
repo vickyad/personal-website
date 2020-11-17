@@ -1,0 +1,9 @@
+.navegacao{
+    color: var(--link-nav-color);
+    font-weight: bold;
+    text-decoration: none; 
+}
+  
+.navegacao:hover{
+    color: var(--hover-color);
+}

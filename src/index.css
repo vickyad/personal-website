@@ -1,0 +1,35 @@
+html {
+  scroll-behavior: smooth;
+
+  --background-image: url(./images/header_background_2.jpeg);
+  --background-nav: #615049;
+  --background-color: #b38867;
+  --base-color: #f1d3bc;
+  --h1-color: #ff8d3f;
+  --h2-color: #353c3f;
+  --skill-bar-background: #d5d6d2;
+  --skill-bar-color: #353c3f;
+  --link-color: #615049;
+  --link-nav-color: #ff8d3f;
+  --svg-color: #353c3f;
+  --projects-background: #615049;
+  --hover-color: #f1d3bc;
+}
+
+html.dark{
+  scroll-behavior: smooth;
+
+  --background-image: url(./images/header_background.jpeg);
+  --background-nav: #90afc5;
+  --background-color: #32384b;
+  --base-color: #a49592;
+  --h1-color: #e99787;
+  --h2-color: #eed8c9;
+  --skill-bar-background: #eed8c9;
+  --skill-bar-color: #e99787;
+  --link-color: #90afc5;
+  --link-nav-color: #211f30;
+  --svg-color: #e99787;
+  --projects-background: #756867;
+  --hover-color: #eed8c9;
+}
