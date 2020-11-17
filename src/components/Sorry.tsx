@@ -1,11 +1,12 @@
-import * as React from 'react'
+import React from 'react'
+import Text from '../constants/text_general'
 
 import doggo from '../images/doggo.gif'
 
 const Sorry: React.FC = () => {
     return (
         <>
-            <p> Desculpe os transtornos, esse site ainda está em construção </p>
+            <p>{Text.SORRY_MESSAGE}</p>
             <img src={doggo} width="200px" alt="" />
         </>
     );

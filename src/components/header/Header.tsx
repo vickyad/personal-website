@@ -1,4 +1,5 @@
-import * as React from 'react'
+import React from 'react'
+import Text from '../../constants/text_general'
 
 import './style.css'
 
@@ -6,8 +7,7 @@ const Header: React.FC = () => {
     return (
         <header id="topo">
             <div className="flex-box column">
-                <h1>Olá, mundo! Eu sou a Victória</h1>
-                <p>Seja bem-vindo ao meu website. Fique à vontade, a casa é sua</p>
+                {Text.HEADER_TEXT}
             </div>
         </header>
     )

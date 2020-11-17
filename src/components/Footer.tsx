@@ -1,9 +1,10 @@
-import * as React from 'react'
+import React from 'react'
+import Text from '../constants/text_general'
 
 const Footer: React.FC = () => {
     return(
         <footer id="rodape">
-            <p>Obrigada pela visita!</p>
+            <p>{Text.FOOTER_MESSAGE}</p>
         </footer>
     )
 }

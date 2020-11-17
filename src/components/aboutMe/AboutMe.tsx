@@ -1,4 +1,5 @@
-import * as React from 'react'
+import React from 'react'
+import Text from '../../constants/text_aboutMe'
 
 import './style.css'
 
@@ -20,13 +21,13 @@ import {ReactComponent as SteamIcon} from '../../icons/steam.svg'
 const AboutMe: React.FC = () => {
     return (
         <>
-            <h2 id="sobre-mim">Sobre mim</h2>
+            <h2 id="sobre-mim">{Text.TITLE}</h2>
             <div className="flex-box">
                 <div className="sobre-mim-conteudo">
                     <img id="euzi" src={myself} width="250px" alt="Myself" />
                     <img src={mygender} height="100px" alt="My gender: Demigirl" />
                     <img src={mysexuality} height="100px" alt="My sexuality: Pansexual" />
-                    <p>Minhas redes antissociais:</p>
+                    <p>{Text.FOLLOW_ME}</p>
                     <ul>
                         <li className="social-media"><a target="_blank" rel="noreferrer" href="mailto://victoria.ad40@gmail.com"><MailIcon /></a></li>
                         <li className="social-media"><a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/victoria-duarte-193322176/"><LinkedinIcon /></a></li>
@@ -37,13 +38,11 @@ const AboutMe: React.FC = () => {
                     </ul>
                 </div>
                 <article className="sobre-mim-conteudo">
-                    <p>Olá, eu sou a Victória Duarte e tenho 20 aninhos.</p>
-                    <p>Estou cursando Ciência da Computação e sou apaixonada pela área. Além de computação, adoro psicologia, fotografia, doces e coisas fofas. Sou uma otaku das fedidas, adoro jogar, cozinhar e desenhar. Eu sou bem timidazinha, mas adoro conhecer gente nova e trocar ideias</p>
-                    <p>Os amores da minha vida são meu namoradinho perfeito, minha cadelinha, minhas suculentas e minha sobrinha.</p>
+                    <>{Text.PRESENTATION}</>
                     <img src={koko} width="200px" alt="my cute little dog" />
                     <img src={suculentas} width="200px" alt="my succulent" />
                     <img src={frida} width="200px" alt="my little cat niece" />
-                    <p><a href={curso} target="_blank" rel="noreferrer">Acompanhe meu desenvolvimento no curso</a></p>
+                    <p><a href={curso} target="_blank" rel="noreferrer">{Text.KEEP_TRACK_OF_MY_PROGRESS}</a></p>
                 </article>
             </div >
         </>

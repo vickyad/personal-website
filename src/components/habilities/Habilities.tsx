@@ -1,14 +1,15 @@
-import * as React from 'react'
+import React from 'react'
+import Text from '../../constants/text_habilities'
 
 import './style.css'
 
 const Habilities: React.FC = () => {
     return (
         <>
-            <h2 id="habilidades">Habilidades</h2>
+            <h2 id="habilidades">{Text.TITLE}</h2>
             <div className="flex-box">
                 <div className="div-habilidades">
-                    <h4>Linguagens de programação</h4>
+                    <h4>{Text.PROGRAMMING_SECTION}</h4>
                     <p>C</p>
                     <div className="container">
                         <div className="skills c"></div>
@@ -26,7 +27,7 @@ const Habilities: React.FC = () => {
                 </div>
 
                 <div className="div-habilidades">
-                    <h4>Design</h4>
+                    <h4>{Text.DESIGN_SECTION}</h4>
                     <p>HTML</p>
                     <div className="container">
                         <div className="skills html"></div>
@@ -44,18 +45,18 @@ const Habilities: React.FC = () => {
                 </div>
 
                 <div className="div-habilidades">
-                    <h3>Outras habilidades</h3>
-                    <p>Trabalho em grupo</p>
+                    <h3>{Text.OTHERS_SECTION}</h3>
+                    <p>{Text.TEAMWORK}</p>
                     <div className="container">
                         <div className="skills trab-grupo"></div>
                     </div>
 
-                    <p>Organização</p>
+                    <p>{Text.ORGANIZATION}</p>
                     <div className="container">
                         <div className="skills organizacao"></div>
                     </div>
 
-                    <p>Cozinheira</p>
+                    <p>{Text.COOKING}</p>
                     <div className="container">
                         <div className="skills cozinha"></div>
                     </div>

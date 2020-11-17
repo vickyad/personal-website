@@ -1,4 +1,5 @@
-import * as React from 'react'
+import React from 'react'
+import Text from '../../constants/text_portifolio'
 
 import './style.css'
 
@@ -9,7 +10,7 @@ import dinoProject from '../../icons/dino.png'
 const Portifolio: React.FC = () => {
     return (
         <>
-            <h2 id="portifolio">Portifolio</h2>
+            <h2 id="portifolio">{Text.TITLE}</h2>
             <div className="flex-box">
                 <div>
                     <div className="my-projects" /*onclick='insereTexto("mousetrap")'*/>
