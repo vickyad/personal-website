@@ -1,6 +1,6 @@
 import React from 'react'
 
-import arrowTop from '../../icons/up-arrow.svg'
+import arrowTop from '../../assets/icons/up-arrow.svg'
 
 import './style.css'
 

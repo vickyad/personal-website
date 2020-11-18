@@ -1,7 +1,7 @@
 import React from 'react'
 import Text from '../constants/text_general'
 
-import doggo from '../images/doggo.gif'
+import doggo from '../assets/images/doggo.gif'
 
 const Sorry: React.FC = () => {
     return (

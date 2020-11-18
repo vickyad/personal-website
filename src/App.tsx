@@ -9,7 +9,7 @@ import BackTop from './components/backTop/BackTop'
 import AboutMe from './components/aboutMe/AboutMe'
 import Habilities from './components/habilities/Habilities'
 import Portifolio from './components/portifolio/Portifolio'
-import Experience from './components/Experience'
+import Experience from './components/experience/Experience'
 import Sorry from './components/Sorry'
 import Footer from './components/Footer'
 

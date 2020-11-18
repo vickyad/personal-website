@@ -3,20 +3,20 @@ import Text from '../../constants/text_aboutMe'
 
 import './style.css'
 
-import myself from '../../images/me.png'
-import mygender from '../../icons/demigirl.svg'
-import mysexuality from '../../icons/pansexual.svg'
-import koko from '../../images/koko.png'
-import frida from '../../images/frida.png'
-import suculentas from '../../images/suculentas.png'
-import curso from '../../images/curso.png'
+import myself from '../../assets/images/me.png'
+import mygender from '../../assets/icons/demigirl.svg'
+import mysexuality from '../../assets/icons/pansexual.svg'
+import koko from '../../assets/images/koko.png'
+import frida from '../../assets/images/frida.png'
+import suculentas from '../../assets/images/suculentas.png'
+import curso from '../../assets/images/curso.png'
 
-import {ReactComponent as MailIcon} from '../../icons/email.svg'
-import {ReactComponent as LinkedinIcon} from '../../icons/linkedin.svg'
-import {ReactComponent as GithubIcon} from '../../icons/github.svg'
-import {ReactComponent as InstagramIcon} from '../../icons/instagram.svg'
-import {ReactComponent as PinterestIcon} from '../../icons/pinterest.svg'
-import {ReactComponent as SteamIcon} from '../../icons/steam.svg'
+import {ReactComponent as MailIcon} from '../../assets/icons/email.svg'
+import {ReactComponent as LinkedinIcon} from '../../assets/icons/linkedin.svg'
+import {ReactComponent as GithubIcon} from '../../assets/icons/github.svg'
+import {ReactComponent as InstagramIcon} from '../../assets/icons/instagram.svg'
+import {ReactComponent as PinterestIcon} from '../../assets/icons/pinterest.svg'
+import {ReactComponent as SteamIcon} from '../../assets/icons/steam.svg'
 
 const AboutMe: React.FC = () => {
     return (

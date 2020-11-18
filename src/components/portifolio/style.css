@@ -1,5 +1,5 @@
 .my-projects{
-    margin: 50px;
+    margin: 40px;
     padding: 30px;
     background-color: var(--projects-background);
 }
@@ -14,8 +14,10 @@
     color: rgb(240, 205, 51);
 }
 
-#input-descricao{
-    padding: 80px;
-    padding-top: 0px;
+.columnInfo {
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+    max-width: 400px;
     text-align: justify;
 }

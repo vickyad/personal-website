@@ -1,7 +1,7 @@
 html {
   scroll-behavior: smooth;
 
-  --background-image: url(./images/header_background_2.jpeg);
+  --background-image: url(./assets/images/header_background_2.jpeg);
   --background-nav: #615049;
   --background-color: #b38867;
   --base-color: #f1d3bc;
@@ -19,7 +19,7 @@ html {
 html.dark{
   scroll-behavior: smooth;
 
-  --background-image: url(./images/header_background.jpeg);
+  --background-image: url(./assets/images/header_background.jpeg);
   --background-nav: #90afc5;
   --background-color: #32384b;
   --base-color: #a49592;
